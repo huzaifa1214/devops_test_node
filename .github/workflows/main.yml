@@ -1,4 +1,4 @@
-name: huzaifa1214/clockbox
+name: devops_test_node
 
 on: # specify the build to trigger the automated ci/cd
     push:
@@ -30,4 +30,4 @@ jobs:
                   context: .
                   file: ./Dockerfile
                   push: true
-                  tags: clockbox:latest
+                  tags: $/{{"clockbox:latest"}}
